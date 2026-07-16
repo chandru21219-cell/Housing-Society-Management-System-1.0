@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+# 🏢 Housing Society Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React.js-based Housing Society Management System that helps manage residents, maintenance billing, payments, parking, complaints, and society reports. The application uses **React Context API** and **Local Storage** for state management and data persistence.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🔐 Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Login and Logout
+* Protected Routes
+* Session persistence using Local Storage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📊 Dashboard
 
-### `npm test`
+* Total Residents
+* Total Flats
+* Total Maintenance Collection
+* Pending Collection
+* Total Bills
+* Paid Bills
+* Parking Statistics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 👥 Resident Management
 
-### `npm run build`
+* Add Resident
+* Edit Resident
+* Delete Resident
+* Search Residents
+* Duplicate Flat Validation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💰 Maintenance Billing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Generate Monthly Bills
+* Bill Number Generation
+* Due Date Tracking
+* Paid & Pending Status
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💳 Payment Management
 
-### `npm run eject`
+* Record Maintenance Payments
+* Payment Date
+* Payment Mode
+* Payment History
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🚗 Parking Management
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Add Parking Slots
+* Assign Resident
+* Vehicle Details
+* Parking Fee
+* Occupied/Available Status
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📝 Complaint Management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Register Complaints
+* Complaint Categories
+* Complaint Status
+* Delete Complaints
 
-## Learn More
+### 📈 Reports
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Resident Summary
+* Bill Summary
+* Collection Summary
+* Pending Collection Report
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ⚙️ Settings
 
-### Code Splitting
+* Application Settings (Extendable)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠 Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* React.js
+* React Router DOM
+* Context API
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Local Storage
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📂 Project Structure
 
-### Advanced Configuration
+```
+src/
+│
+├── components/
+├── context/
+├── pages/
+├── App.jsx
+└── index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## ▶️ Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone the repository:
 
-### `npm run build` fails to minify
+```bash
+git clone <repository-url>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the application:
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📌 Current Scope
+
+The current version is a **frontend implementation** with data stored in the browser using Local Storage.
+
+---
+
+## 🔮 Future Enhancements
+
+* Visitor Management
+* Staff Management
+* Notice Board
+* Notification System
+* Water & Electricity Billing
+* JWT Authentication
+* Backend Integration (Node.js + Express)
+* Database Integration (MySQL/MongoDB)
+* PDF & Excel Report Export
+
+---
+
+## 👨‍💻 Author
+
+Developed as a React.js project to demonstrate component-based architecture, Context API, CRUD operations, protected routing, and responsive UI design.
